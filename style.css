@@ -34,6 +34,9 @@ button {
   border-radius: 20px;
 }
 
+#earButton {
+  display: none;
+}
 #play-btn {
   position: absolute;
   left: 270px;
