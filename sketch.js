@@ -24,9 +24,6 @@ playBtn.addEventListener("click", () => {
 eyeButton.addEventListener('click', () => {
   eyeIndex = (eyeIndex + 1) % 4
 })
-earButton.addEventListener('click', () => {
-  earIndex = (earIndex + 1) % 4
-})
 mouthButton.addEventListener('click', () => {
   mouthIndex = (mouthIndex + 1) % 4
 })
