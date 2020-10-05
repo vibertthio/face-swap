@@ -15,7 +15,7 @@
 
 body {
   text-align: center;
-  background-color: #323133;
+  background-color: #fff;
 }
 
 #p5-canvas {
@@ -24,15 +24,20 @@ body {
   margin: 1rem auto;
 }
 
+button {
+  font-size: 1rem;
+  height: 40px;
+  width: 100px;
+  border: 1px solid;
+  color: #000;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
 #play-btn {
   position: absolute;
   left: 270px;
   top: 220px;
-  border: 1px solid;
-  font-size: 1rem;
-  height: 40px;
-  width: 100px;
-  color: #94abad;
 }
 
 h1 {
@@ -46,5 +51,5 @@ h3,
 p,
 a {
   /* color: #94abad; */
-  color: #fff;
+  color: #000;
 }
